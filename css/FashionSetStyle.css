@@ -1,0 +1,468 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #ffffff;
+    color: black;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    width: auto; /* Adjust size as needed */
+    height: auto;
+}
+
+.men {
+    background-color: rgba(42,42,42,.97); /* Red color with 50% opacity */
+}
+
+.men:hover {
+    opacity: 0.8; /* Opacity effect on hover */
+}
+
+.menu-icon {
+    display: none; /* Hide menu icon by default */
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #DA5726;
+}
+
+hr {
+    border: 1px solid #333;
+    margin: 20px 0;
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 20px;
+}
+
+article {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+
+
+/* Media Queries for Responsive Design */
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none; /* Hide navigation links by default on small screens */
+        position: absolute;
+        top: 80px;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .menu-icon {
+        display: inline-block; /* Show menu icon on small screens */
+        cursor: pointer;
+    }
+}
+
+/*cards*/
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+butto {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+
+/*Contact us CSS*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin: auto;
+    padding: 0%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #DA5726;
+}
+
+h1{
+    text-align: center;
+}
+
+hr {
+    border: 2px solid #DA5726;
+    margin: 20px 0;
+}
+
+.subscribe {
+    text-align: center;
+    padding: 50px 0; /* Adjust the padding as needed */
+}
+
+.container {
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+}
+
+.form-container {
+    width: 300px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the form container horizontally */
+    background-color:white; /* Background color for the container */
+    padding: 20px; /* Add padding for spacing within the container */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+}
+
+.form-container form {
+    text-align: center; /* Align the form elements to the left within the container */
+
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.form button {
+    background-color: #DA5726;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Add hover effect to the button */
+.form button:hover {
+    background-color: #DA5726;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 10px;
+}
+
+.contact-list li {
+    margin-bottom: 20px;
+}
+
+.contact-list strong {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-column {
+    margin-top: 20px; /* Adjust the margin-top value as needed */
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin-bottom: 20px;
+}
+
+.contact-list strong {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/*cards*/
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  butto {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  
+  /*about*/
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+   background: url("../images/baner-right-image-04.jpg");
+    color: white;
+  
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .butt {
+    background-color: #ffffff; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .butt {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+  }
+  
+.butt:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Our Team*/
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
